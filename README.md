@@ -24,7 +24,7 @@ Global logger settings help log messages to the Common.log file in /logs folder.
 
 ## REST endpoints
 
-*POST /v1/products* 
+**POST /v1/products** 
 
 Add new Product using */v1/products* using the following sample JSON:
 ````
@@ -52,7 +52,7 @@ with expected response:
 }
 ````
 
-*GET v1/products/{category}*
+**GET v1/products/{category}**
 
 Get list of products filtered on Category field, ordered by the Date of Creation, newest first using *v1/products/{category}*
 The default pagination variables are set as pageNo=0 and pageSize=5. These can be set by user as Request Parameters like so *v1/products/{category}?pageNo=1&pageSize=10*
